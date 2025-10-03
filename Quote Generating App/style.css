@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    gap: 28px;
+}
+
+h1{
+    color: #ffffff00;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+    -webkit-text-stroke: 2px #ffffff;
+}
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    
+}
+#quoteDisplay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    width: 70%;
+    text-align: center
+}
+#authorDisplay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    width: 70%
+}
+#newQuoteButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #ffffff00;
+    color : #fff;
+    border: 1px solid #fff;
+    padding: 12px 32px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+#newQuoteButton:hover{
+    background-color: #fff;
+    color: #000;
+}
