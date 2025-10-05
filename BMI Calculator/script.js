@@ -2,18 +2,40 @@ const weight = document.querySelector("#weight")
 const height = document.querySelector("#height");
 const btn = document.querySelector("#calculate-button");
 const result = document.querySelector("#result");
+const category = document.querySelector(".category");
+const colorCode = document.querySelector(".colorCode");
 
 
 btn.addEventListener("click",(e)=>{
 e.preventDefault();
 const inputWeight = Number(weight.value);
-const inputHeight = Number(height.value);
+const inputHeight = Number(height.value)/100;
 const bmiFormula = inputWeight / (inputHeight ^ 2);
 const BMI = parseFloat(bmiFormula.toFixed(2))
 
 if (BMI < 18.5){
-
+    result.textContent = `Your BMI is ${BMI} `;
+    category.textContent = `Underweight`;
+    colorCode.style.backgroundColor = "blue";
 }
+else if(BMI < 24.9){
+    result.textContent = `Your BMI is ${BMI}  `;
+    category.textContent = `Normal weight`;
+    colorCode.style.backgroundColor = "green";
+}
+else if(BMI < 29.9){
+    result.textContent = `Your BMI is ${BMI}  `;
+    category.textContent = `Overweight`;
+    colorCode.style.backgroundColor = "yellow";
+}
+else{
+    result.textContent = `Your BMI is ${BMI}  `;
+    category.textContent = `Obese`;
+    colorCode.style.backgroundColor = "red";
+}
+ weight.value="";
+
+ height.value="";
 
 })
 
