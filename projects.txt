@@ -1,0 +1,67 @@
+Week 1: Fundamentals and DOM Practice
+
+Day 1: Digital Clock (shows live time updating every second)
+
+Day 2: Word Counter App (counts characters and words in a textarea)
+
+Day 3: Background Color Changer (changes color on button click or automatically)
+
+Day 4: Simple Calculator (you already built this, improve by adding keyboard support)
+
+Day 5: Image Slider (next and previous buttons to switch images)
+
+Day 6: Tip Calculator (takes bill amount and percentage, shows total)
+
+Day 7: To-do List with localStorage (store, edit, delete tasks and persist after reload)
+
+Week 2: Forms, Events, and APIs
+
+Day 8: Form Validator (validate email, password length, etc.)
+
+Day 9: Random Quote Generator (with an array of quotes)
+
+Day 10: Quiz App (the one we just discussed)
+
+Day 11: Countdown Timer (user sets time, it counts down to zero)
+
+Day 12: BMI Calculator (takes height and weight, shows BMI category)
+
+Day 13: Weather App (fetch weather data from a free API like OpenWeatherMap)
+
+Day 14: GitHub Profile Finder (fetch GitHub user data with API)
+
+Week 3: Intermediate Projects
+
+Day 15: Notes App with localStorage (save notes, delete, and persist)
+
+Day 16: Expense Tracker (add expenses, calculate totals, store in localStorage)
+
+Day 17: Rock Paper Scissors Game (with score tracking)
+
+Day 18: Modal Popup (open and close modal with JavaScript)
+
+Day 19: Light and Dark Mode Toggle (persist choice in localStorage)
+
+Day 20: Meme Generator (fetch memes from a meme API)
+
+Day 21: Music Player (play, pause, next, previous using audio API)
+
+Week 4: Advanced Features and Bigger Projects
+
+Day 22: E-commerce Product Page (add items to cart, calculate total)
+
+Day 23: Movie App (fetch movies from OMDB API and display)
+
+Day 24: Drag and Drop To-do App (sortable tasks with drag and drop)
+
+Day 25: Image Gallery with Search (filter images dynamically)
+
+Day 26: Markdown Previewer (textarea input renders live markdown output)
+
+Day 27: Infinite Scroll Blog (fetch posts and load more on scroll)
+
+Day 28: Chat App UI (no backend, just switching messages visually)
+
+Day 29: Recipe App (fetch recipes from an API and display)
+
+Day 30: Portfolio Website (use all your skills, showcase your projects, add interactivity with JS)
